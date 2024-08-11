@@ -1,0 +1,34 @@
+/* .city-card > img{
+    width: 200px;
+    height: 300px;
+}
+
+.city-card {
+    background-color: bisque;
+    text-align: center;
+} */
+
+.city-card {
+    /* Add some padding and margin to create space around the card */
+    padding: 10px;
+    margin: 5px;
+    /* Use a more modern and sleek background color */
+    /* background-color: #f7f7f7; */
+    /* Add some border radius to give the card a rounded corner effect */
+    border-radius: 10px;
+    /* Use a box shadow to give the card some depth */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Center the card horizontally */
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .city-card > img {
+    /* Make the image responsive and scale with the card */
+    width: 100%;
+    height: 20vw;
+    /* Add some border radius to the image to match the card */
+    border-radius: 5px 5px 0 0;
+    /* Add some object-fit to ensure the image scales properly */
+    object-fit: cover;
+  }

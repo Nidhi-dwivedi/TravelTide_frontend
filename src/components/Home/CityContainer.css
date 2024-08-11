@@ -1,0 +1,27 @@
+/* #city-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding-top: 40px;
+} */
+
+#city-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    padding: 40px; /* updated to add padding on all sides */
+    background-color: #f7f7f7; /* added a light gray background */
+    border-radius: 10px; /* added a subtle border radius */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* added a soft box shadow */
+  }
+  
+  #city-container > * { /* added a child selector to target individual cards */
+    flex-basis: 200px; /* set a minimum width for each card */
+    margin: 10px; /* added margin to create some space between cards */
+    background-color: #fff; /* added a white background for each card */
+    border-radius: 10px; /* added a border radius for each card */
+    padding: 20px; /* added padding for each card */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* added a soft box shadow for each card */
+  }

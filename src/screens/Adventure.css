@@ -1,0 +1,24 @@
+/* #adventure-card-container{
+    padding-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+} */
+
+#adventure-card-container {
+    padding-top: 40px; /* consider using a relative unit like rem or em instead of px */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* consider using a consistent spacing scale throughout your project */
+    justify-content: center;
+    max-width: 1200px; /* add a max-width to prevent the container from getting too wide */
+    margin: 0 auto; /* add horizontal margin to center the container */
+}
+
+#filter-section > div{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    gap: 10px;
+}
